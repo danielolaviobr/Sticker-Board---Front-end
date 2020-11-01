@@ -29,6 +29,8 @@ export const ErrorPageWrapper = styled.div`
     outline: none;
     border: none;
 
+    cursor: pointer;
+
     transition: 0.4s;
 
     &:hover {
