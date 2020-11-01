@@ -1,30 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to Sticker Board - Front-end 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-## Getting Started
+> This is a online sticker board, it syncs to the database on save and can dinamically create new boards to be used. This project was created in under 24h as personal challange. The main lessons that were learned in this project were the usefulness of state managment (This will be the next topic I will be learning more in depth) and componentization, that allowed me to reuse components in my pages that otherwise would have taken me some time to replicate and adapt, and would have made my code clunkier.
+> Another challange faced was the dragging feature, that made this project to much fun. It was a struggle to figure a way to store all the necessary data for each sticker, but the lib so much fun to work with that I can't recommend it enough. Check it out at [react-draggable](https://www.npmjs.com/package/react-draggable#draggable-usage).
 
-First, run the development server:
+### 🏠 [Homepage](https://sticker-board.vercel.app)
 
-```bash
-npm run dev
-# or
+## Install
+
+```sh
+yarn install
+```
+
+## Usage
+
+```sh
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+👤 **Daniel Olavio**
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Website: [http://danielolavio.com](http://danielolavio.com)
+- Github: [@danielolaviobr](https://github.com/danielolaviobr)
+- LinkedIn: [@daniel-olavio](https://linkedin.com/in/daniel-olavio)
