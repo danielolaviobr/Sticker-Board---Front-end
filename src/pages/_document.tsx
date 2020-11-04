@@ -41,6 +41,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
+          <meta name="google-site-verification" content="XE1DCyT1-umnlIJAcNZBStXFo0zO_54xrrag6-3LYuQ" />
           <meta charSet="utf-8" />
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700"
